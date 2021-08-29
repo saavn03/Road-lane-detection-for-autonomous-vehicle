@@ -46,7 +46,7 @@ def process(image):
     image_with_lines = drow_the_lines(image, lines)
     return image_with_lines
 
-cap = cv2.VideoCapture('D:\TY-SEM-2\EDI-SDP PROJECT\SDP\SDP_Grp-14_SEM6_Project\SDP_Project/vedio3.mp4')
+cap = cv2.VideoCapture('Your path/vedio3.mp4')
 
 while cap.isOpened():
     ret, frame = cap.read()
